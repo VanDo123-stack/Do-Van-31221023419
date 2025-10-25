@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài Tập 2: Định dạng Nền, Nhạc, Chữ Chạy</title>
+    <style>
+        /* 2.1. Định dạng Hình nền */
+        body {
+            /* Đặt màu nền xám nhạt #f0f0f0 */
+            background-color: #f0f0f0; 
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding-top: 50px; /* Thêm khoảng đệm để nội dung không bị sát lề */
+        }
+        /* 2.3. Định dạng chữ chạy */
+        .chuchay {
+            color: blue;
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+        .note {
+            font-size: 16px;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+
+    <marquee class="chuchay" behavior="scroll" direction="left" loop="-1">
+        Chào mừng bạn đến website của trường ĐH KT TP.HCM
+    </marquee>
+    <audio controls autoplay loop muted style="display:none">
+        <source src="https://www.w3schools.com/html/horse.mp3" type="audio/mpeg">
+        Trình duyệt của bạn không hỗ trợ thẻ audio.
+    </audio>
+
+</body>
+</html>

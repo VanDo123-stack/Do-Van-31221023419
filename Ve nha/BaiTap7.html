@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <title>Bài 7 - Tạo bảng</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 30px;
+    }
+    .container {
+      display: flex;
+      align-items: flex-start;
+      gap: 30px;
+    }
+    .logo {
+      width: 120px;
+    }
+    table {
+      border-collapse: collapse;
+      width: 350px;
+      text-align: center;
+      font-size: 16px;
+    }
+    table, th, td {
+      border: 1px solid gray;
+    }
+    th, td {
+      padding: 8px;
+    }
+    caption {
+      font-weight: bold;
+      color: blue;
+      font-size: 20px;
+      padding: 8px;
+    }
+    th {
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+
+  <h2>7. Tạo bảng</h2>
+
+  <div class="container">
+    <img class="logo" src="https://bit.ueh.edu.vn/wp-content/uploads/2017/06/BIT_logo.png" alt="UEH Logo">
+    
+    <table>
+      <caption>Mạng nghệ thuật &amp; giải trí</caption>
+      <tr>
+        <th>Phim</th>
+        <th>Ngày chiếu</th>
+      </tr>
+      <tr>
+        <td>Sherlock Holmes</td>
+        <td>Thứ hai</td>
+      </tr>
+      <tr>
+        <td>Lovejoy</td>
+        <td>Thứ hai</td>
+      </tr>
+    </table>
+  </div>
+
+</body>
+</html>
